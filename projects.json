@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "A dynamic portfolio website built with Aleph.js, React, and Atomic CSS. Fetches content from GitHub raw files.",
+      "link": "https://github.com/yourusername/portfolio-website"
+    },
+    {
+      "title": "Task Manager",
+      "description": "A task management application that allows users to create, update, and track tasks. Built with Node.js and React.",
+      "link": "https://github.com/yourusername/task-manager"
+    }
+  ]
+}
