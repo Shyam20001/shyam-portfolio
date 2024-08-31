@@ -1,0 +1,16 @@
+{
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Tech Solutions Inc.",
+      "dates": "June 2020 - Present",
+      "details": "Led a team of developers in building scalable web applications using Node.js and React. Implemented microservices architecture and improved system performance by 30%."
+    },
+    {
+      "title": "Software Developer",
+      "company": "Innovative Tech",
+      "dates": "January 2018 - May 2020",
+      "details": "Developed and maintained web applications using JavaScript and Node.js. Collaborated with cross-functional teams to deliver features on time."
+    }
+  ]
+}
