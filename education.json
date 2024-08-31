@@ -1,0 +1,14 @@
+{
+  "education": [
+    {
+      "institution": "University of Tech",
+      "degree": "Bachelor of Science in Computer Science",
+      "graduationYear": 2017
+    },
+    {
+      "institution": "Tech Bootcamp",
+      "degree": "Full Stack Web Development",
+      "graduationYear": 2018
+    }
+  ]
+}
