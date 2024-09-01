@@ -4,9 +4,10 @@ import react from "aleph/plugins/react";
 import unocss from "aleph/plugins/unocss";
 import config from "./unocss.config.ts";
 import modules from "./routes/_export.ts";
-import {load} from "load-env"
+import { load } from "load-env"
 //console.log(await load({export: true})); load the environ mental variables in entry point then only it works
-export const config2 = load({export: true})
+export const config2 = load({ export: true })
+
 
 serve({
   plugins: [
@@ -18,7 +19,10 @@ serve({
     {
       name: "secret",
       fetch: (_req, ctx) => {
-        ctx.secret = Deno.env.get("ADMIN_ROOT");
+        ctx.secret = {
+          adminRoot: Deno.env.get("ADMIN_ROOT"),
+          pwd: Deno.env.get("PWDX")
+        }
         return ctx.next();
       },
     },

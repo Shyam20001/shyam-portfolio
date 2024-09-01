@@ -11,7 +11,8 @@ import * as $6 from "./index.tsx";
 import * as $7 from "./projects.tsx";
 import * as $8 from "./technicalskill.tsx";
 import * as $9 from "./todos.tsx";
-import * as $10 from "./api/admin@2001/$uid.ts";
+import * as $10 from "./api/master.ts";
+import * as $11 from "./api/admin@2001/$uid.ts";
 
 export default {
   "/_404": $0,
@@ -24,5 +25,6 @@ export default {
   "/projects": $7,
   "/technicalskill": $8,
   "/todos": $9,
-  "/api/admin@2001/:uid": $10,
+  "/api/master": $10,
+  "/api/admin@2001/:uid": $11,
 };

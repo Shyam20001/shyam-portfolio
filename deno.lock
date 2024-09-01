@@ -1,9 +1,16 @@
 {
   "version": "3",
   "redirects": {
+    "https://deno.land/x/aleph@1.0.0-beta.44/": "https://deno.land/x/aleph@1.0.0-beta.44",
+    "https://esm.sh/v128/@types/react@~18.2/index.d.ts": "https://esm.sh/v128/@types/react@18.2.38/index.d.ts",
     "https://esm.sh/v128/@types/react@~18.2/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@18.2.38/jsx-runtime~.d.ts"
   },
   "remote": {
+    "http://localhost:8000/components/Footer.tsx?ssr&v=m0jae75y": "9833a1cacc1bd93a04ea839c4917b70db91116ced7523aac5cf715dea38194f2",
+    "http://localhost:8000/components/Header.tsx?ssr&v=m0jae75y": "07e9fc4937eb6ffd1ab278792595da79c92ded3da3124bf927cd709704325f33",
+    "http://localhost:8000/routes/_app.tsx?ssr&v=m0jae75y": "e70eb85aa9d05df883e9c6c47382cf85822ddac50bf6cd26a6131247cd39b88e",
+    "http://localhost:8000/routes/api/master.ts?ssr&v=m0jae75y": "b0a3acf319ac25ab62f1b09dd250216d9e7da180c8d1c8a9a52889cb1848c82e",
+    "http://localhost:8000/routes/index.tsx?ssr&v=m0jae75y": "766b669cb23e72be7c02f786f5ab9d9ffbf85e7aa429fe27abe913252090e27e",
     "https://deno.land/std@0.180.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.180.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
     "https://deno.land/std@0.180.0/async/abortable.ts": "73acfb3ed7261ce0d930dbe89e43db8d34e017b063cf0eaa7d215477bf53442e",
@@ -127,6 +134,8 @@
     "https://esm.sh/v126/mitt@3.0.0/denonext/mitt.mjs": "4afe21572fb471e15f6a9b7f139bcd12fdbc2e730e0f3e15eadb7d19e18a12f8",
     "https://esm.sh/v135/@unocss/core@0.50.6": "af743fa84c15be12fce1fc8755cf2b86963bc5ea1d97b8ad01f44628488bf3f1",
     "https://esm.sh/v135/@unocss/core@0.50.6/denonext/core.mjs": "3513068e6e9e3c3fec032a76f6fd050991f1d3f02bf2c42ac5ffc898debac012",
+    "https://esm.sh/v135/@unocss/core@0.50.6/denonext/dist.js": "c5d8803f55f682dc70ef69c3bc30e107f6232c4b9e2121814e8512ae496f91ef",
+    "https://esm.sh/v135/@unocss/core@0.50.6/dist/index.js": "ca65cc16b07cf471129ad580e390912b55a15c9fa7b959bfa354c6fedf8b0305",
     "https://esm.sh/v135/@unocss/preset-mini@0.50.6/denonext/dist/shared/preset-mini.305062ab.js": "8381f23db42642e227a871f58dc9433568cedc85f3925b20a4e92df8f01a4209",
     "https://esm.sh/v135/@unocss/preset-mini@0.50.6/denonext/dist/shared/preset-mini.617e6696.js": "f80a7ad12166e08ffde0a88b81bfbba73fbb0275508823eae8f1acd776aee018",
     "https://esm.sh/v135/@unocss/preset-mini@0.50.6/denonext/dist/shared/preset-mini.65ac75be.js": "d6b4563671fdade1c7a4726c0d7fcc70ed1b7c5ee0b6ec2ea9c8aeac41222b5b",
