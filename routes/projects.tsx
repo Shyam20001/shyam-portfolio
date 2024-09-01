@@ -13,7 +13,7 @@ const Projects = () => {
   if (!data) return <div className="p-4 text-center">Loading...</div>;
 
   return (
-    <div className="w-screen flex flex-col items-center justify-center min-h-screen">
+    <div className="w-screen flex flex-col items-center justify-center">
       <Head>
         <title>Projects - Shyam. M</title>
         <meta

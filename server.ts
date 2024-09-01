@@ -7,6 +7,7 @@ import modules from "./routes/_export.ts";
 import { load } from "load-env"
 //console.log(await load({export: true})); load the environ mental variables in entry point then only it works
 export const config2 = load({ export: true })
+const kv = await Deno.openKv(Deno.env.get("DB_URL"));
 
 
 serve({
@@ -21,7 +22,8 @@ serve({
       fetch: (_req, ctx) => {
         ctx.secret = {
           adminRoot: Deno.env.get("ADMIN_ROOT"),
-          pwd: Deno.env.get("PWDX")
+          pwd: Deno.env.get("PWDX"),
+          kv: kv
         }
         return ctx.next();
       },
