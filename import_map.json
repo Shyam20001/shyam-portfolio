@@ -13,7 +13,8 @@
     "aleph/plugins/react": "https://deno.land/x/aleph@1.0.0-beta.44/framework/react/plugin.ts",
     "react": "https://esm.sh/v135/react@18.2.0",
     "react-dom": "https://esm.sh/v135/react-dom@18.2.0",
-    "react-dom/": "https://esm.sh/v135/react-dom@18.2.0/"
+    "react-dom/": "https://esm.sh/v135/react-dom@18.2.0/",
+    "load-env": "https://deno.land/std@0.224.0/dotenv/mod.ts"
   },
   "scopes": {}
 }

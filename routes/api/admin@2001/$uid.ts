@@ -8,14 +8,18 @@
 //     })
 //   }
 
-
+// import {load} from "load-env"
+// //console.log(await load({export: true}));
+// export const config = load({export: true})
 export async function GET(req: Request, ctx: Context) {
-  //console.log("Params:", ctx.params); // Log the params to see what's being captured
+ // console.log("Params:", ctx.params); // Log the params to see what's being captured
   const uid = await ctx.params?.uid; // Safely access 'uid'
-  const envUid = Deno.env.get("ADMIN_ROOT");
+  //Deno.env.set("ADMIN_ROOT", "stella2019")
+  const envUid = ctx.secret
+  //console.log("[middleware:foo]", ctx.secret);
   
   //console.log("Environment UID:", envUid); // Log the environment variable
- // console.log("UID from URL:", uid); // Log the UID from the URL
+  //console.log("UID from URL:", uid); // Log the UID from the URL
 
   if (uid === envUid) { // Compare with environment variable 'UID'
       return new Response(null, {
