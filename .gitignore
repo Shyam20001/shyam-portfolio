@@ -1,0 +1,8 @@
+node_modules
+.env
+.env.DENO
+.env.local
+
+# ignore final build
+
+/output
