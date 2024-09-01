@@ -7,7 +7,7 @@ const AdminPage = () => {
     useEffect(() => {
         const urlParams = new URLSearchParams(window.location.search);
         const pwd = urlParams.get('uid');
-        if (pwd === Deno.env.get("ADMIN_ROOT")) {
+        if (pwd === import.meta.env.ADMIN_ROOT) {
             setIsAuthenticated(true);
         }
     }, []);
